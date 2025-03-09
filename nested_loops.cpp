@@ -5,7 +5,7 @@
 #include "constants.h"
 #include "nested_loops.h"
 
-bool isMagicSquareUsingNestedLoops(const int arr2D[NUM][NUM]) {
+bool isMagicSquare(const int arr2D[NUM][NUM]) {
     return areDiagsEqual( arr2D) && areRowColumnsEqual(arr2D);
 }
 

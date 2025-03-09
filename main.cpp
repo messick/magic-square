@@ -11,8 +11,8 @@ int main()
     constexpr int arr2DTest2 [NUM][NUM] = { {1,2,3,4},{1,2,3,4},{1,2,3,4},{1,2,3,4} };
 
     // Test using Nested Loops
-    cout << "Using Nested Loops: Test 1: Expected 1 - Test " << isMagicSquareUsingNestedLoops(arr2DTest1) << endl;
-    cout << "Using Nested Loops: Test 2: Expected 0 - Test " << isMagicSquareUsingNestedLoops(arr2DTest2) << endl;
+    cout << "Using Nested Loops: Test 1: Expected 1 - Test " << isMagicSquare(arr2DTest1) << endl;
+    cout << "Using Nested Loops: Test 2: Expected 0 - Test " << isMagicSquare(arr2DTest2) << endl;
 
     cout << endl;
 
